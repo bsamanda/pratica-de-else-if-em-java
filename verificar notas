@@ -1,0 +1,24 @@
+pratica de else if em java, verificação de notas 
+import java.util.*;
+
+
+public class Main {
+    public static void main(String[] args) {
+
+   int nota = 2;
+
+    if (nota >=9 ){
+      System.out.println("excelente");
+    }
+    else if (nota >=7){
+      System.out.println("bom");
+
+    } 
+    else if (nota >=5){
+      System.out.println("regular");
+    }
+    else{
+      System.out.println("reprovado");
+    }
+}
+}
