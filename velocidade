@@ -1,0 +1,23 @@
+velocidade 
+import java.util.*;
+
+
+public class Main {
+    public static void main(String[] args) {
+
+   int velocidade = 70;
+
+    if (velocidade <40 ){
+      System.out.println("muito devagar");
+    }
+    else if (velocidade <=80 ){
+      System.out.println("velocidade normal");
+    } 
+    else if (velocidade <=100 ){
+      System.out.println("velocidade alta");
+    }
+    else{
+      System.out.println("acima do limte");
+    }
+}
+}
